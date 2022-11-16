@@ -5,7 +5,32 @@
         "contentSize": "640px",
         "wideSize": "940px"
     },
+    "settings": {
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Merriweather",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/merriweather/merriweather-v30-latin-regular.woff2"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Merriweather\", serif",
+                    "name": "Merriweather",
+                    "slug": "merriweather"
+                }
+    
+            ]
+        }
+    },
     "styles": {
+		"typography": {
+			"fontSize": "var(--wp--preset--font-size--normal)",
+			"fontFamily": "var(--wp--preset--font-family--merriweather)"
+		},
         "blocks": {
             "core/site-title": {
                 "elements": {
@@ -32,6 +57,11 @@
 					"link": {
                         "color": {
                             "text": "white"
+                        },
+                        "spacing": {
+                            "padding": {
+                                "right": "16px"
+                            }
                         },
 						":hover": {
                             "color": {
