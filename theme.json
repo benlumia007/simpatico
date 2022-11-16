@@ -1,0 +1,62 @@
+{
+	"version": 2,
+
+    "layout": {
+        "contentSize": "640px",
+        "wideSize": "940px"
+    },
+    "styles": {
+        "blocks": {
+            "core/site-title": {
+                "elements": {
+                    "link": {
+                        "color": {
+                            "text": "white"
+                        },
+                        "typography": {
+                            "textDecoration": "none"
+                        }
+                    }
+                },
+                "spacing": {
+                    "margin": "0px"
+                }
+            },
+            "core/site-tagline": {
+                "spacing": {
+                    "margin": "0px"
+                }
+            },
+			"core/navigation": {
+				"elements": {
+					"link": {
+                        "color": {
+                            "text": "white"
+                        },
+						":hover": {
+                            "color": {
+                                "text": "red"
+                            },
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						":focus": {
+							"typography": {
+								"textDecoration": "underline dashed"
+							}
+						},
+						":active": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			}
+        }
+    }
+}
